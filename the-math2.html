@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE 개념 블랙라벨 공통수학2 자료</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 커스텀 폰트 및 기타 스타일 */
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#FDF3DA] flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white p-8 md:p-12 rounded-2xl shadow-xl max-w-4xl w-full">
+        <!-- 뒤로가기 버튼 -->
+        <a href="index.html" class="inline-block mb-8 text-blue-600 hover:text-blue-800 transition-colors duration-300 font-semibold">
+            &larr; 과목 선택으로 돌아가기
+        </a>
+
+        <!-- 과목별 자료 목록 섹션 -->
+        <section class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-700 mb-6 text-center">THE 개념 블랙라벨 공통수학2</h2>
+            <ul class="space-y-4">
+                <!-- 교재 체험판 -->
+                <li class="flex justify-between items-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <span class="text-lg font-medium text-gray-700">1. 교재 체험판</span>
+                    <a href="https://example.com/download/math2_trial.pdf" class="px-6 py-2 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+                        다운로드
+                    </a>
+                </li>
+                <!-- 해설 pdf -->
+                <li class="flex justify-between items-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <span class="text-lg font-medium text-gray-700">2. 해설 pdf</span>
+                    <a href="https://example.com/download/math2_solution.pdf" class="px-6 py-2 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+                        다운로드
+                    </a>
+                </li>
+                <!-- 강의자료 (PPT, PDF) -->
+                <li class="flex flex-col md:flex-row justify-between md:items-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 space-y-2 md:space-y-0 md:space-x-4">
+                    <span class="text-lg font-medium text-gray-700">3. 강의자료</span>
+                    <div class="flex space-x-2">
+                        <a href="https://example.com/download/math2_lecture.pptx" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+                            PPT
+                        </a>
+                        <a href="https://example.com/download/math2_lecture.pdf" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+                            PDF
+                        </a>
+                    </div>
+                </li>
+                <!-- 문제자료 (한글, PDF) -->
+                <li class="flex flex-col md:flex-row justify-between md:items-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 space-y-2 md:space-y-0 md:space-x-4">
+                    <span class="text-lg font-medium text-gray-700">4. 문제자료</span>
+                    <div class="flex space-x-2">
+                        <a href="https://example.com/download/math2_problems.hwp" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+                            한글
+                        </a>
+                        <a href="https://example.com/download/math2_problems.pdf" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+                            PDF
+                        </a>
+                    </div>
+                </li>
+                <!-- 중단원 테스트 (본문, 해설) -->
+                <li class="flex flex-col md:flex-row justify-between md:items-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 space-y-2 md:space-y-0 md:space-x-4">
+                    <span class="text-lg font-medium text-gray-700">5. 중단원 테스트</span>
+                    <div class="flex space-x-2">
+                        <a href="https://example.com/download/math2_test.hwp" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+                            본문
+                        </a>
+                        <a href="https://example.com/download/math2_test_solution.pdf" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+                            해설
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
