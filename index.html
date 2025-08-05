@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선생님용 강의 자료 다운로드</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 커스텀 폰트 및 기타 스타일 */
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        /* 각 과목별 색상 변수 정의 */
+        :root {
+            --math1-color: #F7703A;
+            --math1-hover-color: #E36A31;
+            --math2-color: #F7AA16;
+            --math2-hover-color: #E39B14;
+            --algebra-color: #E258A6;
+            --algebra-hover-color: #D34B9A;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white p-8 md:p-12 rounded-2xl shadow-xl max-w-4xl w-full text-center">
+        <!-- 헤더 섹션 -->
+        <header class="mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+                선생님용 강의 자료 다운로드
+            </h1>
+            <p class="mt-4 text-gray-600 text-lg">
+                아래에서 과목을 선택하여 필요한 자료를 다운로드하세요.
+            </p>
+        </header>
+
+        <!-- 과목 선택 버튼 목록 -->
+        <main class="space-y-6">
+            <!-- 공통수학1 버튼 -->
+            <a href="the-math1.html" class="block w-full py-5 px-8 bg-[--math1-color] text-black text-xl font-bold rounded-full shadow-md hover:bg-[--math1-hover-color] transition-colors duration-300">
+                THE 개념 블랙라벨 공통수학1
+            </a>
+            <!-- 공통수학2 버튼 -->
+            <a href="the-math2.html" class="block w-full py-5 px-8 bg-[--math2-color] text-black text-xl font-bold rounded-full shadow-md hover:bg-[--math2-hover-color] transition-colors duration-300">
+                THE 개념 블랙라벨 공통수학2
+            </a>
+            <!-- 대수 버튼 -->
+            <a href="the-algebra.html" class="block w-full py-5 px-8 bg-[--algebra-color] text-black text-xl font-bold rounded-full shadow-md hover:bg-[--algebra-hover-color] transition-colors duration-300">
+                THE 개념 블랙라벨 대수
+            </a>
+        </main>
+    </div>
+</body>
+</html>
